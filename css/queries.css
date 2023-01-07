@@ -1,0 +1,154 @@
+/******************/
+/* 1344 => 84em */
+/******************/
+@media (max-width: 84em) {
+  .hero {
+    overflow: hidden;
+  }
+  .hero-img {
+    left: 0;
+  }
+}
+
+/******************/
+/* 1200px => 75em */
+/******************/
+@media (max-width: 75em) {
+  .container {
+    max-width: 120rem;
+  }
+  header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    overflow: hidden;
+  }
+  .hero-img {
+    width: 100%;
+    top: 11.5rem;
+    left: 3rem;
+  }
+  .section-title {
+    font-size: 3.2rem;
+  }
+  .features.grid {
+    grid-template-columns: 1fr;
+  }
+  .service-card {
+    padding: 1.2rem;
+  }
+}
+
+/******************/
+/* 1040 => 65em */
+/******************/
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-img {
+    left: 8rem;
+  }
+}
+
+/******************/
+/* 832px => 52em */
+/******************/
+@media (max-width: 52em) {
+  .grid-3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-2--cols {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 7.2rem;
+  }
+  .content .title,
+  .content .title-info {
+    text-align: center;
+  }
+  .email {
+    margin: 3.2rem auto;
+  }
+  .clients {
+    justify-content: center;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .header-nav {
+    display: none;
+  }
+  .how-top.flex,
+  .copyright-info.flex,
+  .logos.flex {
+    flex-wrap: wrap;
+    gap: 3.2rem;
+  }
+  .service-card.grid {
+    gap: 1.8rem;
+  }
+  .active {
+    transform: scale(1);
+  }
+  .test-container {
+    padding: 6.4rem;
+  }
+  .sponsor .title {
+    width: 65%;
+  }
+  .footer-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/******************/
+/* 592px => 37em */
+/******************/
+@media (max-width: 37em) {
+  html {
+    font-size: 37.5%;
+  }
+  .email {
+    min-width: 40.8rem;
+  }
+  .grid-2--cols,
+  .test-container.grid,
+  .grid-3--cols,
+  .grid-4--cols,
+  .footer-cols {
+    grid-template-columns: 1fr;
+  }
+  .service-images-grid {
+    grid-template-columns: 1fr;
+  }
+  .sponsor .title {
+    width: 70%;
+  }
+  .test-container {
+    padding: 4.8rem;
+  }
+  .test-container.grid {
+    gap: 4.8rem;
+  }
+  .footer-cols.grid {
+    gap: 4.8rem;
+  }
+  .logo {
+    width: 75%;
+  }
+}
+
+/***************************/
+/* 300px => 19em */
+/***************************/
+@media (max-width: 19em) {
+  html {
+    font-size: 30%;
+  }
+  .email {
+    min-width: 100%;
+  }
+  .sponsor .title {
+    width: 100%;
+  }
+}

@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff3e66;
+  --heading-color: #0e1133;
+  --paragraph-color: #555;
+}
+
+body {
+  font-family: rubik;
+  color: var(--paragraph-color);
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+/* Customize Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 1.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2450;
+}
+
+.container {
+  max-width: 130rem;
+  margin: auto;
+  padding: 0 3.2rem;
+}
+section {
+  padding: 9.6rem 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.mt0 {
+  margin-top: 0 !important;
+}
+.mb0 {
+  margin-bottom: 0 !important;
+}
+.ml0 {
+  margin-left: 0 !important;
+}
+.mr0 {
+  margin-right: 0 !important;
+}
+.m0 {
+  margin: 0 !important;
+}
+.pt0 {
+  padding-top: 0 !important;
+}
+.pb0 {
+  padding-bottom: 0 !important;
+}
+.pl0 {
+  padding-left: 0 !important;
+}
+.pr0 {
+  padding-right: 0 !important;
+}
+.p0 {
+  padding: 0 !important;
+}
+.grid {
+  display: grid;
+  align-items: center;
+}
+.grid-start {
+  display: grid;
+  align-items: start;
+}
+.grid-2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-2--cols-auto {
+  grid-template-columns: auto 1fr;
+}
+.grid-3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-space {
+  justify-content: space-between;
+}
+.flex-col {
+  flex-direction: column;
+}
+.btn {
+  padding: 1.6rem 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 5rem;
+  transition: all 0.3s;
+  color: #555;
+}
+.btn-prim {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.btn-prim:hover {
+  background-color: #ff2450;
+}
+.btn-sec {
+  box-shadow: 0 0 0 1px #d6d6d6;
+  color: var(--heading-color);
+}
+.btn-sec:hover {
+  box-shadow: none;
+  background-color: var(--heading-color);
+  color: #fff;
+}
+.title {
+  font-size: 6.4rem;
+  color: var(--heading-color);
+  line-height: 1.1;
+}
+.section-title {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+.title-info {
+  font-size: 1.6rem;
+  padding-top: 1.6rem;
+  line-height: 1.6;
+}
+.center-text {
+  text-align: center;
+}
